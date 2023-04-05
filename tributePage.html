@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/home/student/Desktop/tributePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1MVGSc2+wTnKPGBv+1mTJyBhxCmzCG97H/5a8/nIY/11/QZp+JrUJsNDP8uzQ6GgA6hm17w2Cm5L5INRla5RQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d9d1b2e01.js" crossorigin="anonymous"></script>
+    <title>Christopher Nolan Biography</title>
+    <style>
+        @keyframes slideInLeft {
+            0% {
+                transform: translateX(180%);
+            }
+
+            100% {
+                transform: translateX(0%);
+            }
+        }
+
+        @keyframes slideInRight {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(180%);
+            }
+        }
+
+
+
+        .overlay {
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-name: slideInLeft;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+
+
+    <nav class="fixed-top">
+        <div class="logo">
+            <img src="https://static.toiimg.com/photo/msid-80232888/80232888.jpg" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#homeSection">Home</a></li>
+                <li><a href="#moviesSection">Movies</a></li>
+                <li><a href="#quoteSection">Filmography</a></li>
+                <li><a href="#footerSection">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="homeSection">
+            <div class="background">
+                <img src="https://c4.wallpaperflare.com/wallpaper/951/502/497/batman-batman-the-dark-knight-beginning-wallpaper-preview.jpg" alt="Christopher Nolan">
+                <div class="overlay">
+                    <h1>Christopher Nolan</h1>
+                    <p>A visionary filmmaker who constantly pushes the boundaries of cinema</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="moviesSection">
+            <div class="achievment-section pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="achievment-section-heading">Nolan Universe </h1>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://c4.wallpaperflare.com/wallpaper/743/1018/523/interstellar-2014-wallpaper-preview.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">INTERSTELLAR</h1>
+                                <p class="achievment-card-description">A science-fiction epic that explores the human desire for exploration and survival. Set in a future where Earth is on the brink of extinction, a team of astronauts, travel through a wormhole in search of a new home for humanity. With stunning visuals and a haunting score, this movie is a rollercoaster ride of emotions.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://wallpapercave.com/wp/fWnWpHj.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">INCEPTION</h1>
+                                <p class="achievment-card-description">A mind-bending thriller where a thief, played by Leonardo DiCaprio, enters people's dreams to steal their secrets. As the story unfolds, the lines between reality and dreams start to blur, leaving the audience questioning what's real and what's not. Directed by Christopher Nolan, this movie is a masterpiece of visual effects and storytelling.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://c4.wallpaperflare.com/wallpaper/165/112/37/batman-the-dark-knight-joker-wallpaper-preview.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">THE DARK KNIGHT</h1>
+                                <p class="achievment-card-description"> The second installment in the Christopher Nolan's Batman trilogy. Heath Ledger's portrayal of Joker is hauntingly brilliant, as he causes chaos in Gotham City and challenges Batman's morals. With stunning action sequences and a thought-provoking narrative, this movie is a must-watch for any comic book fan.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://images6.alphacoders.com/112/1122161.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">DUNKIRK</h1>
+                                <p class="achievment-card-description">A war movie set during the evacuation of Allied soldiers from the beaches of Dunkirk during World War II. With little dialogue and a non-linear narrative, the movie focuses on the visceral experience of war, leaving the audience feeling like they are part of the action.This movie showcases his mastery of tension and suspense.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://w0.peakpx.com/wallpaper/191/83/HD-wallpaper-movie-memento.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">MEMENTO</h1>
+                                <p class="achievment-card-description">A psychological thriller about a man suffering from short-term memory loss. With a unique narrative structure that tells the story backwards, the audience is left to piece together the clues along with the protagonist. This movie is a mind-bending ride that will leave you questioning everything you thought you knew.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://wallpaperaccess.com/full/2776321.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">TENET</h1>
+                                <p class="achievment-card-description">A spy thriller that explores the concept of time inversion. John David Washington's character is recruited by a mysterious organization to prevent World War III by using technology that allows them to manipulate time.This movie is a visual feast with stunning action sequences and mind-boggling concepts.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="achievment-item-card shadow p-3 mb-3" data-toggle="modal" data-target="#graduationModal">
+                                <img src="https://wallpapercave.com/wp/wp4138503.jpg" class="achievment-item-image w-100" />
+                                <h1 class="achievment-card-title">THE PRESTIGE</h1>
+                                <p class="achievment-card-description"> A mystery film about two rival magicians in 19th century London who engage in a fierce competition to create the ultimate magic trick.Two magicians engage in a competitive battle to create the ultimate stage illusion while sacrificing everything to outwit each other.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="quoteSection">
+            <div class="background">
+                <img src="https://wallpaperaccess.com/full/1936009.jpg" alt="Christopher Nolan">
+                <div class="quoteOverlay">
+                    <div class="quote-container">
+                        <blockquote class="quote">" I never really thought about being a director. I just wanted to tell stories. "</blockquote>
+                        <cite class="author">-Christopher Nolan</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <div id="footerSection">
+            <div class="footer-container ">
+                <div class="social-icons ">
+                    <a href="#"><i class="fab fa-facebook-f "></i></a>
+                    <a href="#"><i class="fab fa-twitter "></i></a>
+                    <a href="#"><i class="fab fa-instagram "></i></a>
+                    <a href="#"><i class="fab fa-youtube "></i></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 Christopher Nolan. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    width: 55px;
+    border-radius: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+    color: grey !important;
+}
+
+.menu li a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.background {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1.0;
+    margin-top: 20px;
+}
+
+.overlay {
+    margin-left: 20px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 55%;
+    text-align: left;
+    color: #fff;
+    font-family: Times New Roman;
+    font-size: 2rem;
+
+
+}
+
+
+
+.overlay p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px #333;
+    color: grey;
+    text-align: left;
+}
+
+
+
+
+.achievment-section {
+    background-color: white;
+
+}
+
+.achievment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.achievment-item-image {
+    border-radius: 16px;
+    padding: 0px;
+    min-height: 20vh;
+    width: 30vw;
+}
+
+.achievment-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.achievment-item-card {
+    border-radius: 16px;
+    height: auto;
+    min-width: 25vh;
+    margin-top: 20px;
+    min-height: 50vh;
+    max-height: 50vh;
+    padding-bottom: 10px;
+
+    overflow: scroll;
+}
+
+.achievment-item-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+.achievment-card-description {
+    font-size: 15px;
+}
+
+
+
+
+
+.quoteOverlay {
+    margin-left: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    right: 0%;
+    text-align: left;
+    color: #fff;
+    font-family: Times New Roman;
+    font-size: 2rem;
+}
+
+
+.quote-container {
+    position: relative;
+    max-width: 500px;
+    margin: 10px auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.author {
+    position: absolute;
+    bottom: 10px;
+    right: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    color: lightgrey;
+}
+
+
+
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-container {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    height: 10vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: translateY(20px);
+    font-size: 30px;
+    text-align: center;
+}
+
+.social-icons a:first-child {
+    margin-left: 0;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons i {
+    display: block;
+    width: 10vw;
+    height: 10vh;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.social-icons i:hover {
+    background-color: #fff;
+    /* Facebook blue */
+    height: 60%;
+    width: 130%;
+    color: #000;
+    margin: auto;
+}
+
+.social-icons a:hover i {
+    transform: scale(1.2);
+
+}
+
+.social-icons {
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.copyright {
+    color: #fff;
+    margin-bottom: 10px !important;
+
+}
